@@ -9,7 +9,7 @@ rMVNormC = function(n, mu, Sigma) {
   
   # Z~N(0,I) => X=mu+LZ~N(mu,Sigma) 
   
-  X = mu+L%*%Z
+  X = mu+L%*%t(Z)
   
   return(X)
 }
