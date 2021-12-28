@@ -1,4 +1,4 @@
-rMVNormC = function(n, mu, Sigma) {
+rMVN_Chol = function(n, mu, Sigma) {
   
   p = dim(Sigma)[1]
   
