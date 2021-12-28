@@ -1,5 +1,4 @@
-
-MVN_BM_Chol = function(n, mu, Sigma){
+rMVN_BM_Chol = function(n, mu, Sigma){
   
   # Determine if the dimension is even
   # because Box-Muller produces only 
@@ -29,49 +28,7 @@ MVN_BM_Chol = function(n, mu, Sigma){
   # Z~N(0,I) => X=mu+LZ~N(mu,Sigma)
   
   L = t(chol(Sigma))
-  X = mu+Z%*%L
+  X = mu+L%*%t(Z)
   
   return(X)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
