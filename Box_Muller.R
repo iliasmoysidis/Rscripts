@@ -1,4 +1,3 @@
-
 box_muller = function(n){
   
   # Generate n samples of two independent
