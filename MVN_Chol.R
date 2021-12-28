@@ -1,4 +1,3 @@
-
 rMVNormC = function(n, mu, Sigma) {
   
   p = dim(Sigma)[1]
@@ -14,16 +13,3 @@ rMVNormC = function(n, mu, Sigma) {
   
   return(X)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
