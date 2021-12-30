@@ -11,7 +11,6 @@ svd_power_method = function(X, tolerance = 1e-05, maxiter = 100) {
   
   for (j in 1:min(n, p)) {
     
-    
     error = 1
     iter  = 0
     u_0   = rnorm(n)
@@ -46,5 +45,3 @@ svd_power_method = function(X, tolerance = 1e-05, maxiter = 100) {
   result = list("d" = D, "u" = U, "v" = V)
   return(result)
 }
-
-
