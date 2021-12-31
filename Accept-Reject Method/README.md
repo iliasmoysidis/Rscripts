@@ -1,0 +1,1 @@
+This is a simple example of sampling from a standard normal with the accept-reject method.
