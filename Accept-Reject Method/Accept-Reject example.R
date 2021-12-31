@@ -68,30 +68,3 @@ while (iter < n_samples) {
 
 Z = s*x
 hist(Z)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
