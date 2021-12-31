@@ -18,18 +18,3 @@ int = MC_int(n = 10000, a = 2, b = 3)
 # Compare with the actual value of the integral
 
 abs(int - exp(-a) + exp(-b))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
