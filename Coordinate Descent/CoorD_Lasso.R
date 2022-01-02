@@ -39,13 +39,3 @@ while (error > tolerance & iter < maxiter) {
   beta_0 = beta
   iter   = iter + 1
 }
-
-
-
-
-
-
-
-
-
-
