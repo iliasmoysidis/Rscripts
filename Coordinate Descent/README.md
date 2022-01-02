@@ -1,0 +1,2 @@
+This file contains an implementation of the coordinate descent algorithm
+for estimating the solution of the lasso problem for linear regression.
