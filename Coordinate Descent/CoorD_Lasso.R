@@ -2,7 +2,7 @@
 # method to find the solution of the lasso for linear regression
 
 
-oft_thres = function(k, a) {
+soft_thres = function(k, a) {
   max(0, 1-k/abs(a))*a
 }
 
