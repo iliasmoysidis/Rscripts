@@ -1,4 +1,4 @@
-# QR decomposition algorithm
+# QR decomposition algorithm with the Gram-Schmidt method
 
 proj = function(a,u) {
   
@@ -85,19 +85,3 @@ temp = QR_dec(A)
 
 Q = temp$Q
 R = temp$R
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
