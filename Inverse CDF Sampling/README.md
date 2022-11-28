@@ -1,0 +1,1 @@
+A small example for sampling from a given density using the inverse CDF method.

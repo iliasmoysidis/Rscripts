@@ -1,0 +1,1 @@
+This file contains the code for the QR decomposition algorithms of the Gram-Schmidt and Householder methods for a rectangular matrix.

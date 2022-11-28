@@ -1,0 +1,1 @@
+This file contains a small example of Monte Carlo integration.

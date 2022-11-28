@@ -1,0 +1,1 @@
+This file contains code for finding the generalized matrix decomposition of a rectangular matrix described in Allen, Genevera I., Logan Grosenick, and Jonathan Taylor. "A generalized least-square matrix decomposition." Journal of the American Statistical Association 109.505 (2014): 145-159.
